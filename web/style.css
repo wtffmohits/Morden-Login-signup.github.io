@@ -1,0 +1,101 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6; /* Improved readability */
+    color: #333;       /* Darker text for better contrast */
+}
+
+header {
+    background: url("images/hero-bg.jpg") center/cover no-repeat; /* Example background image */
+    color: white;
+    padding: 20px;
+    text-align: center; /* Center the header content */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically align nav items */
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    padding: 100px 0; /* Add some top/bottom padding */
+}
+
+
+.hero-content {  /* Style the content within the hero section */
+    max-width: 600px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+
+.cta-button {
+    display: inline-block;
+    background-color: #512da8; /* Purple CTA button */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* ... (rest of CSS is the same as before) */
+
+
+main {
+    padding: 40px;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #512da8; /* Purple headings */
+}
+
+
+
+/* ... (rest of CSS remains as before) */
+
+
+footer {
+    background-color: #333; /* Darker footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
